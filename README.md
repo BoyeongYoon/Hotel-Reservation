@@ -51,32 +51,40 @@ You will build a database that satisfies at least second normal form (2NF) using
 ### Room
 Room details are listed below:
 
-Rooms 201-204 and 301-304
-Each of these rooms is a Double room with two queen beds and can sleep up to 4 people.
-Each room includes a refrigerator or a microwave, but not both.
+**Rooms 201-204 and 301-304**  
+- Each of these rooms is a Double room with two queen beds and can sleep up to 4 people.  
+- Each room includes a refrigerator or a microwave, but not both.  
 
-Rooms 205-208 and 305-308
-Each of these rooms is a Single room with a single king bed and can sleep up to 2 people.
-Each room includes both a microwave and a refrigerator.
+<br>
 
-Rooms 401 and 402
-Each suite includes two separate bedrooms: one with two queen-sized beds and the other with one king-sized bed.
-Each suite also includes a shared living room space with a sleeper sofa.
-Each suite can sleep up to 8 people.
-Each suite includes a full kitchen, with a refrigerator, an electric stove and oven, and a microwave oven.
-Each suite is ADA accessible.
+**Rooms 205-208 and 305-308**  
+- Each of these rooms is a Single room with a single king bed and can sleep up to 2 people.
+- Each room includes both a microwave and a refrigerator.
 
-Base Room Prices
+<br>
+
+**Rooms 401 and 402**  
+- Each suite includes two separate bedrooms: one with two queen-sized beds and the other with one king-sized bed.
+- Each suite also includes a shared living room space with a sleeper sofa.
+- Each suite can sleep up to 8 people.
+- Each suite includes a full kitchen, with a refrigerator, an electric stove and oven, and a microwave oven.
+- Each suite is ADA accessible.
+
+<br>
+
+**Base Room Prices**  
 The base prices for the rooms are the following:
-Double: $174.99/night for 2 adults, with an additional $10 for each additional adult per night.
-Single: $149.99/night for 2 adults.
-Suite: $399.99/night for 3 adults, with an additional $20 for each additional adult per night.
-A jacuzzi adds $25 to the base price.
+- Double: $174.99/night for 2 adults, with an additional $10 for each additional adult per night.
+- Single: $149.99/night for 2 adults.
+- Suite: $399.99/night for 3 adults, with an additional $20 for each additional adult per night.
+- A jacuzzi adds $25 to the base price.
 
-Additional Data
-All even-numbered rooms on the second and third floor are ADA accessible.
-All odd-numbered rooms on the second and third floor have a jacuzzi bath.
-Children (under age 18) do not incur additional charges if there is at least one adult per room on the reservation.
+<br>
+
+**Additional Data**  
+- All even-numbered rooms on the second and third floor are ADA accessible.
+- All odd-numbered rooms on the second and third floor have a jacuzzi bath.
+- Children (under age 18) do not incur additional charges if there is at least one adult per room on the reservation.
 
 <br>
 <br>
