@@ -15,14 +15,6 @@
 4. [Database](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
 5. [Data](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
 6. [Queries](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelQueries.sql)  
-   - Returns a list of reservations that end in July 2023, including the name of the guest, the room number(s), and the reservation dates  
-   - Returns a list of all reservations for rooms with a jacuzzi, displaying the guest's name, the room number, and the dates of the reservation  
-   - Returns all the rooms reserved for a specific guest, including the guest's name, the room(s) reserved, the starting date of the reservation, 
-and how many people were included in the reservation  
-   - Returns a list of rooms, reservation ID, and per-room cost for each reservation. The results should include all rooms, whether or not there is a reservation associated with the room  
-   - Returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023  
-   - Returns a list of all guest names and the number of reservations per guest, sorted starting with the guest with the most reservations and then by the guest's last name  
-   - Displays the name, address, and phone number of a guest based on their phone number  
  
 <br>
 <br>
@@ -93,65 +85,25 @@ The base prices for the rooms are the following:
 ### Room Data
 The room data is as follows:
 
-Room	Type	Amenities	ADA Accessible	Standard Occupancy	Maximum Occupancy	Base Price	Extra Person
-201	Double	Microwave, Jacuzzi	No	2	4	$199.99	$10
-202	Double	Refrigerator	Yes	2	4	$174.99	$10
-203	Double	Microwave, Jacuzzi	No	2	4	$199.99	$10
+![Screen Shot 2022-05-12 at 11 57 29 AM](https://user-images.githubusercontent.com/30683150/168126092-ccca02f5-65ae-4c18-bf16-81ceb8b75307.png)  
 
 <br>
 <br>
 <br>
 
 ### Guest
-Guest information is collected only when a guest makes a reservation, so all guests have at least one reservation in the system. Guests who have made reservations include the following:
+Guest information is collected only when a guest makes a reservation, so all guests have at least one reservation in the system. Guests who have made reservations include the following:  
 
-Name	Address	City	State	Zip	Phone
-Your Name	Your Address	City	State	Zip	Phone
-Mack Simmer	379 Old Shore Street	Council Bluffs	IA	51501	(291) 553-0508
-Bettyann Seery	750 Wintergreen Dr.	Wasilla	AK	99654	(478) 277-9632
-Duane Cullison	9662 Foxrun Lane	Harlingen	TX	78552	(308) 494-0198
-Karie Yang	9378 W. Augusta Ave.	West Deptford	NJ	08096	(214) 730-0298
-Aurore Lipton	762 Wild Rose Street	Saginaw	MI	48601	(377) 507-0974
-Zachery Luechtefeld	7 Poplar Dr.	Arvada	CO	80003	(814) 485-2615
-Jeremiah Pendergrass	70 Oakwood St.	Zion	IL	60099	(279) 491-0960
-Walter Holaway	7556 Arrowhead St.	Cumberland	RI	02864	(446) 396-6785
-Wilfred Vise	77 West Surrey Street	Oswego	NY	13126	(834) 727-1001
-Maritza Tilton	939 Linda Rd.	Burke	VA	22015	(446) 351-6860
-Joleen Tison	87 Queen St.	Drexel Hill	PA	19026	(231) 893-2755
+![Screen Shot 2022-05-12 at 12 42 16 PM](https://user-images.githubusercontent.com/30683150/168126169-0f642ac5-42ca-4985-957c-cd13ec048723.png)  
 
 <br>
 <br>
 <br>
 
 ### Reservation
-The following reservations appear in the current reservation system:
+The following reservations appear in the current reservation system:  
 
-Room Number	Name	Adults	Children	Start Date	End Date	Total Room Cost
-308	Mack Simmer	1	0	2/2/2023	2/4/2023	$299.98
-203	Bettyann Seery	2	1	2/5/2023	2/10/2023	$999.95
-305	Duane Cullison	2	0	2/22/2023	2/24/2023	$349.98
-201	Karie Yang	2	2	3/6/2023	3/7/2023	$199.99
-307	Your Name	1	1	3/17/2023	3/20/2023	$524.97
-302	Aurore Lipton	3	0	3/18/2023	3/23/2023	$924.95
-202	Zachery Luechtefeld	2	2	3/29/2023	3/31/2023	$349.98
-304	Jeremiah Pendergrass	2	0	3/31/2023	4/5/2023	$874.95
-301	Walter Holaway	1	0	4/9/2023	4/13/2023	$799.96
-207	Wilfred Vise	1	1	4/23/2023	4/24/2023	$174.99
-401	Maritza Tilton	2	4	5/30/2023	6/2/2023	$1,199.97
-206	Joleen Tison	2	0	6/10/2023	6/14/2023	$599.96
-208	Joleen Tison	1	0	6/10/2023	6/14/2023	$599.96
-304	Aurore Lipton	3	0	6/17/2023	6/18/2023	$184.99
-205	Your Name	2	0	6/28/2023	7/2/2023	$699.96
-204	Walter Holaway	3	1	7/13/2023	7/14/2023	$184.99
-401	Wilfred Vise	4	2	7/18/2023	7/21/2023	$1,259.97
-303	Bettyann Seery	2	1	7/28/2023	7/29/2023	$199.99
-305	Bettyann Seery	1	0	8/30/2023	9/1/2023	$349.98
-208	Mack Simmer	2	0	9/16/2023	9/17/2023	$149.99
-203	Karie Yang	2	2	9/13/2023	9/15/2023	$399.98
-401	Duane Cullison	2	2	11/22/2023	11/25/2023	$1,199.97
-206	Mack Simmer	2	0	11/22/2023	11/25/2023	$449.97
-301	Mack Simmer	2	2	11/22/2023	11/25/2023	$599.97
-302	Maritza Tilton	2	0	12/24/2023	12/28/2023	$699.96
+![Screen Shot 2022-05-12 at 12 42 49 PM](https://user-images.githubusercontent.com/30683150/168126252-9a864580-5e93-47db-a106-e5488f1812bb.png)  
 
 <br>
 <br>
