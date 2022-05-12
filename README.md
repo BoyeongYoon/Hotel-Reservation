@@ -4,11 +4,13 @@
 <br>
 <br>
 
+# Hotel Reservation Schema
+
 1. [Overview](#overview)  
 2. [Hotel Data](#hotel-data)
-   - Room
-   - Guest
-   - Reservation
+   - [Room](#room)
+   - [Guest](#guest)
+   - [Reservation](#reservation)
 3. ERD
 4. Database
 5. Data
@@ -39,7 +41,7 @@ You will build a database that satisfies at least second normal form (2NF) using
 
 ## Hotel Data
 
-### Rooms
+### Room
 Room details are listed below:
 
 Rooms 201-204 and 301-304
@@ -78,7 +80,7 @@ Room	Type	Amenities	ADA Accessible	Standard Occupancy	Maximum Occupancy	Base Pri
 202	Double	Refrigerator	Yes	2	4	$174.99	$10
 203	Double	Microwave, Jacuzzi	No	2	4	$199.99	$10
 
-### Guests
+### Guest
 Guest information is collected only when a guest makes a reservation, so all guests have at least one reservation in the system. Guests who have made reservations include the following:
 
 Name	Address	City	State	Zip	Phone
@@ -95,7 +97,7 @@ Wilfred Vise	77 West Surrey Street	Oswego	NY	13126	(834) 727-1001
 Maritza Tilton	939 Linda Rd.	Burke	VA	22015	(446) 351-6860
 Joleen Tison	87 Queen St.	Drexel Hill	PA	19026	(231) 893-2755
 
-### Reservations
+### Reservation
 The following reservations appear in the current reservation system:
 
 Room Number	Name	Adults	Children	Start Date	End Date	Total Room Cost
