@@ -1,7 +1,12 @@
 ![Screen Shot 2022-05-12 at 11 57 29 AM](https://user-images.githubusercontent.com/30683150/168118156-7c1cd9e1-400b-42b0-9e91-1a71beea02bf.png)   
 
 <br>
+<br>
+<br>
+
 Copyright (c) mThree and TheSoftwareGuild  
+
+<br>
 
 Requirement:
 - The **MySQL** database server and client (eg.**MySQLWorkbench**)  
