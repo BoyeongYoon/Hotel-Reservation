@@ -8,6 +8,8 @@
 
 # DB
 
+[See the details](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
+
 <br>
 <br>
 <br>
