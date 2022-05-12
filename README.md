@@ -11,10 +11,10 @@
    - [Room](#room)
    - [Guest](#guest)
    - [Reservation](#reservation)
-3. [ERD]()  
-4. [Database]()  
-5. [Data]()  
-6. [Queries]()  
+3. [ERD](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)  
+4. [Database](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
+5. [Data](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
+6. [Queries](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelQueries.sql)  
    - Returns a list of reservations that end in July 2023, including the name of the guest, the room number(s), and the reservation dates  
    - Returns a list of all reservations for rooms with a jacuzzi, displaying the guest's name, the room number, and the dates of the reservation  
    - Returns all the rooms reserved for a specific guest, including the guest's name, the room(s) reserved, the starting date of the reservation, 
@@ -78,6 +78,9 @@ All even-numbered rooms on the second and third floor are ADA accessible.
 All odd-numbered rooms on the second and third floor have a jacuzzi bath.
 Children (under age 18) do not incur additional charges if there is at least one adult per room on the reservation.
 
+<br>
+<br>
+<br>
 
 ### Room Data
 The room data is as follows:
@@ -86,6 +89,10 @@ Room	Type	Amenities	ADA Accessible	Standard Occupancy	Maximum Occupancy	Base Pri
 201	Double	Microwave, Jacuzzi	No	2	4	$199.99	$10
 202	Double	Refrigerator	Yes	2	4	$174.99	$10
 203	Double	Microwave, Jacuzzi	No	2	4	$199.99	$10
+
+<br>
+<br>
+<br>
 
 ### Guest
 Guest information is collected only when a guest makes a reservation, so all guests have at least one reservation in the system. Guests who have made reservations include the following:
@@ -103,6 +110,10 @@ Walter Holaway	7556 Arrowhead St.	Cumberland	RI	02864	(446) 396-6785
 Wilfred Vise	77 West Surrey Street	Oswego	NY	13126	(834) 727-1001
 Maritza Tilton	939 Linda Rd.	Burke	VA	22015	(446) 351-6860
 Joleen Tison	87 Queen St.	Drexel Hill	PA	19026	(231) 893-2755
+
+<br>
+<br>
+<br>
 
 ### Reservation
 The following reservations appear in the current reservation system:
@@ -134,10 +145,14 @@ Room Number	Name	Adults	Children	Start Date	End Date	Total Room Cost
 301	Mack Simmer	2	2	11/22/2023	11/25/2023	$599.97
 302	Maritza Tilton	2	0	12/24/2023	12/28/2023	$699.96
 
-Comments:
-In the database, a reservation can include multiple rooms reserved by the same guest and for the same dates. There are two examples in the table above.
-Adults are guests whose age is 18 or older.
-Children are guests under the age of 18.
-Start date represents the first evening the guest will stay at the hotel.
-End date represents the day the guest plans to check out.
+<br>
+<br>
+<br>
+
+**Comments:**  
+- In the database, a reservation can include multiple rooms reserved by the same guest and for the same dates. There are two examples in the table above. 
+- Adults are guests whose age is 18 or older.  
+- Children are guests under the age of 18.  
+- Start date represents the first evening the guest will stay at the hotel.  
+- End date represents the day the guest plans to check out.  
 
