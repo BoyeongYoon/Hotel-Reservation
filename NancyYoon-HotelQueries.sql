@@ -3,8 +3,7 @@ USE HotelReservation;
 
 
 -- #1
--- Write a query that displays the name, address, and phone number of 
--- a guest based on their phone number. (Choose a phone number from the existing data.)
+-- Displays the name, address, and phone number of a guest based on their phone number
 
 SELECT CONCAT(FirstName, ' ', LastName) `Name`, CONCAT(Address, ', ', City, ', ', State, ' ', Zip) Address, Phone
 FROM Guest
@@ -19,7 +18,7 @@ Nancy Yoon		2020 Broadway, New York, NY 10023	(917) 123-4567
 
 -- #2
 -- Returns a list of reservations that end in July 2023, 
--- including the name of the guest, the room number(s), and the reservation dates.
+-- including the name of the guest, the room number(s), and the reservation dates
 
 SELECT * FROM Reservation;
 
@@ -40,7 +39,7 @@ WHERE EndDate BETWEEN '2023-07-01' AND '2023-07-31';
 
 -- #3
 -- Returns a list of all reservations for rooms with a jacuzzi, 
--- displaying the guest's name, the room number, and the dates of the reservation.
+-- displaying the guest's name, the room number, and the dates of the reservation
 
 SELECT CONCAT(FirstName, ' ', LastName) `Name`, Reservation.RoomNumber Room, StartDate `From`, EndDate `To`
 FROM Reservation
@@ -69,7 +68,7 @@ WHERE AmenityID = 2;
 -- #4
 -- Returns all the rooms reserved for a specific guest, 
 -- including the guest's name, the room(s) reserved, the starting date of the reservation, 
--- and how many people were included in the reservation. 
+-- and how many people were included in the reservation 
 
 SELECT CONCAT(FirstName, ' ', LastName) `Name`, RoomNumber Room, StartDate `From`, (Adult + Children) NumberOfPeople
 FROM Reservation
@@ -89,7 +88,7 @@ WHERE FirstName = 'Mack' AND LastName = 'Simmer';
 -- #5
 -- Returns a list of rooms, reservation ID, and per-room cost for each reservation. 
 -- The results should include all rooms, 
--- whether or not there is a reservation associated with the room.
+-- whether or not there is a reservation associated with the room
 
 SELECT IFNULL(Reservation.RoomNumber, Room.RoomNumber) Room, ReservationID, CONCAT('$', FORMAT(TotalRoomCost, 2)) Cost
 FROM Reservation
@@ -131,7 +130,7 @@ ORDER BY Room.RoomNumber;
 
 -- #6
 -- Write a query that returns all the rooms accommodating at least 
--- three guests and that are reserved on any date in April 2023.
+-- three guests and that are reserved on any date in April 2023
 
 SELECT ReservationID, RoomNumber, (Adult + Children) NumberOfPeople, StartDate `From`, EndDate `To`
 FROM Reservation
@@ -146,7 +145,7 @@ WHERE (Adult + Children) >= 3 AND EndDate BETWEEN '2023-04-01' AND '2023-04-30';
 -- #7
 -- Write a query that returns a list of all guest names and 
 -- the number of reservations per guest, sorted starting with the guest 
--- with the most reservations and then by the guest's last name.
+-- with the most reservations and then by the guest's last name
 
 SELECT CONCAT(FirstName, ' ', LastName) `Name`, COUNT(ReservationID) NumberOfReservations
 FROM Reservation
