@@ -83,9 +83,9 @@ The base prices for the rooms are the following:
 <br>
 
 ### Room Data
-The room data is as follows:
+The room data is as follows:  
 
-![Screen Shot 2022-05-12 at 11 57 29 AM](https://user-images.githubusercontent.com/30683150/168126092-ccca02f5-65ae-4c18-bf16-81ceb8b75307.png)  
+![Screen Shot 2022-05-12 at 12 41 35 PM](https://user-images.githubusercontent.com/30683150/168126424-0db420c5-b9f8-41a2-86ae-b809239fbb96.png)  
 
 <br>
 <br>
