@@ -4,8 +4,8 @@ Copyright (c) mThree and SoftwareGuild
 
 <br>
 
-Requirement: 
-- The **MySQL** database server and client eg.**MySQLWorkbench**  
+Requirement:
+- The **MySQL** database server and client (eg.**MySQLWorkbench**)  
 
 <br>
 <br>
