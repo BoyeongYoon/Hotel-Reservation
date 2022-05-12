@@ -2,11 +2,9 @@ USE HotelReservation;
 
 
 
-/* #1 
-Write a query that returns a list of reservations that end in July 2023, 
-including the name of the guest, the room number(s), and the reservation dates.
-
-Expected Results 4 rows */
+-- #1 
+-- Returns a list of reservations that end in July 2023, 
+-- including the name of the guest, the room number(s), and the reservation dates.
 
 SELECT * FROM Reservation;
 
@@ -16,20 +14,18 @@ INNER JOIN Guest ON Reservation.GuestID = Guest.GuestID
 WHERE EndDate BETWEEN '2023-07-01' AND '2023-07-31';
 
 /* #1
-	Name				Room	From		To
-1	Nancy Yoon			205		2023-06-28	2023-07-02
-2	Walter Holaway		204		2023-07-13	2023-07-14
-3	Wilfred Vise		401		2023-07-18	2023-07-21
-4	Bettyann Seery		303		2023-07-28	2023-07-29
+	Name			Room	From		To
+1	Nancy Yoon		205	2023-06-28	2023-07-02
+2	Walter Holaway		204	2023-07-13	2023-07-14
+3	Wilfred Vise		401	2023-07-18	2023-07-21
+4	Bettyann Seery		303	2023-07-28	2023-07-29
 */
 
 
 
-/* #2
-Write a query that returns a list of all reservations for rooms with a jacuzzi, 
-displaying the guest's name, the room number, and the dates of the reservation.
-
-Expected Results 11 rows*/
+-- #2
+-- Returns a list of all reservations for rooms with a jacuzzi, 
+-- displaying the guest's name, the room number, and the dates of the reservation.
 
 SELECT CONCAT(FirstName, ' ', LastName) `Name`, Reservation.RoomNumber Room, StartDate `From`, EndDate `To`
 FROM Reservation
@@ -39,7 +35,7 @@ JOIN RoomAmenity ON Room.RoomNumber = RoomAmenity.RoomNumber
 WHERE AmenityID = 2;
 
 /*
-	Name				Room	From			To
+	Name			Room	From		To
 1	'Karie Yang',		'201',	'2023-03-06',	'2023-03-07'
 2	'Bettyann Seery',	'203',	'2023-02-05',	'2023-02-10'
 3	'Karie Yang',		'203',	'2023-09-13',	'2023-09-15'
@@ -55,13 +51,10 @@ WHERE AmenityID = 2;
 
 
 
-/* # 3
-Write a query that returns all the rooms reserved for a specific guest, 
-including the guest's name, the room(s) reserved, the starting date of the reservation, 
-and how many people were included in the reservation. 
-(Choose a guest's name from the existing data.)
-
-Expected Results 4 rows */
+-- #3
+-- Returns all the rooms reserved for a specific guest, 
+-- including the guest's name, the room(s) reserved, the starting date of the reservation, 
+-- and how many people were included in the reservation. 
 
 SELECT CONCAT(FirstName, ' ', LastName) `Name`, RoomNumber Room, StartDate `From`, (Adult + Children) NumberOfPeople
 FROM Reservation
@@ -69,7 +62,7 @@ JOIN Guest ON Reservation.GuestID = Guest.GuestID
 WHERE FirstName = 'Mack' AND LastName = 'Simmer';
 
 /*
-	Name			Room	From			NumberOfPeople
+	Name		Room	From		NumberOfPeople
 1	'Mack Simmer',	'308',	'2023-02-02',	'1'
 2	'Mack Simmer',	'208',	'2023-09-16',	'2'
 3	'Mack Simmer',	'206',	'2023-11-22',	'2'
@@ -78,12 +71,10 @@ WHERE FirstName = 'Mack' AND LastName = 'Simmer';
 
 
 
-/* #4
-Write a query that returns a list of rooms, reservation ID, and per-room 
-cost for each reservation. The results should include all rooms, 
-whether or not there is a reservation associated with the room.
-
-Expected Results 26 Rows */
+-- #4
+-- Returns a list of rooms, reservation ID, and per-room cost for each reservation. 
+-- The results should include all rooms, 
+-- whether or not there is a reservation associated with the room.
 
 SELECT IFNULL(Reservation.RoomNumber, Room.RoomNumber) Room, ReservationID, CONCAT('$', FORMAT(TotalRoomCost, 2)) Cost
 FROM Reservation
