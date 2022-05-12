@@ -3,11 +3,16 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ✨ Copyright (c) mThree and TheSoftwareGuild  
 🔧 Requirement: The **MySQL** database server and client (eg.**MySQLWorkbench**)  
 
-<br>
 <br>
 <br>
 
