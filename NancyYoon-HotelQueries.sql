@@ -129,8 +129,7 @@ ORDER BY Room.RoomNumber;
 
 
 -- #6
--- Write a query that returns all the rooms accommodating at least 
--- three guests and that are reserved on any date in April 2023
+-- Returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023
 
 SELECT ReservationID, RoomNumber, (Adult + Children) NumberOfPeople, StartDate `From`, EndDate `To`
 FROM Reservation
@@ -143,7 +142,7 @@ WHERE (Adult + Children) >= 3 AND EndDate BETWEEN '2023-04-01' AND '2023-04-30';
 
 
 -- #7
--- Write a query that returns a list of all guest names and 
+-- Returns a list of all guest names and 
 -- the number of reservations per guest, sorted starting with the guest 
 -- with the most reservations and then by the guest's last name
 
