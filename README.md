@@ -4,7 +4,7 @@
 <br>
 <br>
 
-1. [Overview](#Overview)  
+1. [Overview](#over-view)  
 2. Hotel Data
    - Room
    - Guest
@@ -30,7 +30,7 @@ and how many people were included in the reservation
 <br>
    
 
-# OverView {#Overview}
+# Overview {#over-view}
 Hotel Software Guild is a resort hotel on the West Arm of Lake Minnetonka. It is a relatively small hotel, with three floors of rooms. The top floor includes two large suites, and each of the other floors has eight standard-sized hotel rooms. The ground floor includes the customer service counter, a lounge area, a small exercise room, and a restaurant.
 
 The hotel staff currently uses Excel spreadsheets to keep track of the rooms, guests, and reservations, and they have hired you to convert the existing data into a more flexible relational database.
