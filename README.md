@@ -15,7 +15,7 @@
    - [Room](#room)
    - [Guest](#guest)
    - [Reservation](#reservation)
-3. [ERD](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)  
+3. [Entity Relationship Diagram (ERD)](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)  
 4. [Database](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
 5. [Data](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
 6. [Queries](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelQueries.sql)  
