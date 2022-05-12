@@ -1,3 +1,29 @@
+1. Overview  
+2. Hotel Data
+   - Room
+   - Guest
+   - Reservation
+3. ERD
+4. Database
+5. Data
+6. Queries
+   - Returns a list of reservations that end in July 2023, including the name of the guest, the room number(s), and the reservation dates  
+   - Returns a list of all reservations for rooms with a jacuzzi, displaying the guest's name, the room number, and the dates of the reservation  
+   - Returns all the rooms reserved for a specific guest, including the guest's name, the room(s) reserved, the starting date of the reservation, 
+and how many people were included in the reservation  
+   - Returns a list of rooms, reservation ID, and per-room cost for each reservation. The results should include all rooms, whether or not there is a reservation associated with the room  
+   - Returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023  
+   - Returns a list of all guest names and the number of reservations per guest, sorted starting with the guest with the most reservations and then by the guest's last name  
+   - Displays the name, address, and phone number of a guest based on their phone number  
+ 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+   
+
 # OverView
 Hotel Software Guild is a resort hotel on the West Arm of Lake Minnetonka. It is a relatively small hotel, with three floors of rooms. The top floor includes two large suites, and each of the other floors has eight standard-sized hotel rooms. The ground floor includes the customer service counter, a lounge area, a small exercise room, and a restaurant.
 
