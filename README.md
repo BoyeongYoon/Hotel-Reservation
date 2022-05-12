@@ -2,7 +2,6 @@
 
 <br>
 
-✨ Copyright (c) mThree and TheSoftwareGuild  
 🔧 Requirement: The **MySQL** database server and client (eg.**MySQLWorkbench**)  
 
 <br>
@@ -11,7 +10,7 @@
 # Hotel Reservation Schema
 
 1. [Overview](#overview)  
-2. [Hotel Data](#hotel-data)
+2. [Hotel Data](#hotel-data) ✨ Copyright (c) mThree and TheSoftwareGuild  
    - [Room](#room)
    - [Guest](#guest)
    - [Reservation](#reservation)
