@@ -5,7 +5,7 @@
 <br>
 
 1. [Overview](#overview)  
-2. Hotel Data
+2. [Hotel Data](#hotel-data)
    - Room
    - Guest
    - Reservation
@@ -30,14 +30,14 @@ and how many people were included in the reservation
 <br>
    
 
-# Overview # {#overview}
+# Overview {#overview}
 Hotel Software Guild is a resort hotel on the West Arm of Lake Minnetonka. It is a relatively small hotel, with three floors of rooms. The top floor includes two large suites, and each of the other floors has eight standard-sized hotel rooms. The ground floor includes the customer service counter, a lounge area, a small exercise room, and a restaurant.
 
 The hotel staff currently uses Excel spreadsheets to keep track of the rooms, guests, and reservations, and they have hired you to convert the existing data into a more flexible relational database.
 
 You will build a database that satisfies at least second normal form (2NF) using the data provided here. While you are given the data itself, you are expected to identify the tables, fields, and relationships that will house this data.
 
-# Hotel Data
+# Hotel Data {#hotel-data}
 
 ## Rooms
 Room details are listed below:
