@@ -30,16 +30,16 @@ and how many people were included in the reservation
 <br>
    
 
-# Overview {#overview}
+## Overview {#overview}
 Hotel Software Guild is a resort hotel on the West Arm of Lake Minnetonka. It is a relatively small hotel, with three floors of rooms. The top floor includes two large suites, and each of the other floors has eight standard-sized hotel rooms. The ground floor includes the customer service counter, a lounge area, a small exercise room, and a restaurant.
 
 The hotel staff currently uses Excel spreadsheets to keep track of the rooms, guests, and reservations, and they have hired you to convert the existing data into a more flexible relational database.
 
 You will build a database that satisfies at least second normal form (2NF) using the data provided here. While you are given the data itself, you are expected to identify the tables, fields, and relationships that will house this data.
 
-# Hotel Data {#hotel-data}
+## Hotel Data {#hotel-data}
 
-## Rooms
+### Rooms
 Room details are listed below:
 
 Rooms 201-204 and 301-304
@@ -70,7 +70,7 @@ All odd-numbered rooms on the second and third floor have a jacuzzi bath.
 Children (under age 18) do not incur additional charges if there is at least one adult per room on the reservation.
 
 
-## Room Data
+### Room Data
 The room data is as follows:
 
 Room	Type	Amenities	ADA Accessible	Standard Occupancy	Maximum Occupancy	Base Price	Extra Person
@@ -78,7 +78,7 @@ Room	Type	Amenities	ADA Accessible	Standard Occupancy	Maximum Occupancy	Base Pri
 202	Double	Refrigerator	Yes	2	4	$174.99	$10
 203	Double	Microwave, Jacuzzi	No	2	4	$199.99	$10
 
-## Guests
+### Guests
 Guest information is collected only when a guest makes a reservation, so all guests have at least one reservation in the system. Guests who have made reservations include the following:
 
 Name	Address	City	State	Zip	Phone
@@ -95,7 +95,7 @@ Wilfred Vise	77 West Surrey Street	Oswego	NY	13126	(834) 727-1001
 Maritza Tilton	939 Linda Rd.	Burke	VA	22015	(446) 351-6860
 Joleen Tison	87 Queen St.	Drexel Hill	PA	19026	(231) 893-2755
 
-## Reservations
+### Reservations
 The following reservations appear in the current reservation system:
 
 Room Number	Name	Adults	Children	Start Date	End Date	Total Room Cost
@@ -133,7 +133,7 @@ Start date represents the first evening the guest will stay at the hotel.
 End date represents the day the guest plans to check out.
 
 
-# ERD
+## ERD
 
 ![ERD](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)
 
@@ -141,7 +141,7 @@ End date represents the day the guest plans to check out.
 <br>
 <br>
 
-# DB
+## DB
 
 [See the DB details](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
 
@@ -174,7 +174,7 @@ CREATE TABLE RoomAmenity (
 <br>
 <br>
 
-# DATA
+## DATA
 
 [See the DATA details](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
 
@@ -193,7 +193,7 @@ INSERT INTO RoomAmenity (RoomNumber, AmenityID) VALUES
 <br>
 <br>
 
-# QUERIES
+## QUERIES
 
 **A query that returns a list of all guest names and the number of reservations per guest, sorted starting with the guest with the most reservations and then by the guest's last name.**  
 
