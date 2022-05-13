@@ -15,7 +15,7 @@
 <br>
 <br>
 
-1. [Overview](#overview)  
+1. [Overview](#overview) ✨ Copyright (c) mThree
 2. [Entity Relationship Diagram (ERD)](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)  
 3. [Database](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
 4. [Data](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
@@ -27,7 +27,7 @@
    - Returns a list of rooms, reservation ID, and per-room cost for each reservation. The results should include all rooms, whether or not there is a reservation associated with the room.  
    - Returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023.  
    - Returns a list of all guest names and the number of reservations per guest, sorted starting with the guest with the most reservations and then by the guest's last name.  
-6. [Heap](#hotel-data) ✨ Copyright (c) mThree and TheSoftwareGuild  
+6. [Heap](#hotel-data) ✨ Copyright (c) mThree 
    - [Room](#room)
    - [Guest](#guest)
    - [Reservation](#reservation)
