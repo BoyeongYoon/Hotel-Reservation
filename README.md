@@ -16,14 +16,10 @@
 <br>
 
 1. [Overview](#overview)  
-2. [Hotel Data](#hotel-data) ✨ Copyright (c) mThree and TheSoftwareGuild  
-   - [Room](#room)
-   - [Guest](#guest)
-   - [Reservation](#reservation)
-3. [Entity Relationship Diagram (ERD)](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)  
-4. [Database](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
-5. [Data](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
-6. [Queries](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelQueries.sql)  
+2. [Entity Relationship Diagram (ERD)](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)  
+3. [Database](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
+4. [Data](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
+5. [Queries](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelQueries.sql)  
    - Displays the name, address, and phone number of a guest based on their phone number.
    - Returns a list of reservations that end in July 2023, including the name of the guest, the room number(s), and the reservation dates.  
    - Returns a list of all reservations for rooms with a jacuzzi, displaying the guest's name, the room number, and the dates of the reservation.  
@@ -31,6 +27,10 @@
    - Returns a list of rooms, reservation ID, and per-room cost for each reservation. The results should include all rooms, whether or not there is a reservation associated with the room.  
    - Returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023.  
    - Returns a list of all guest names and the number of reservations per guest, sorted starting with the guest with the most reservations and then by the guest's last name.  
+6. [Hotel Data](#hotel-data) ✨ Copyright (c) mThree and TheSoftwareGuild  
+   - [Room](#room)
+   - [Guest](#guest)
+   - [Reservation](#reservation)
 
 <br>
 <br>
