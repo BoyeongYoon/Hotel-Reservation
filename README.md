@@ -3,18 +3,13 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-
-# Hotel Reservation Schema
 
 🔧 Requirement: The **MySQL** database server and client (eg.**MySQLWorkbench**)  
 
 <br>
 <br>
 
-## Overview 
+# Overview 
 ✨ Copyright (c) mThree  
 
 Hotel Software Guild is a resort hotel on the West Arm of Lake Minnetonka. It is a relatively small hotel, with three floors of rooms. The top floor includes two large suites, and each of the other floors has eight standard-sized hotel rooms. The ground floor includes the customer service counter, a lounge area, a small exercise room, and a restaurant.
