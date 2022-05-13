@@ -13,9 +13,7 @@ Hotel Software Guild is a resort hotel on the West Arm of Lake Minnetonka. It is
 
 The hotel staff currently uses Excel spreadsheets to keep track of the rooms, guests, and reservations, and they have hired you to convert the existing data into a more flexible relational database.
 
-You will build a database that satisfies at least second normal form (2NF) using the data provided here. While you are given the data itself, you are expected to identify the tables, fields, and relationships that will house this data.
-
-✨ Copyright (c) mThree  
+You will build a database that satisfies at least second normal form (2NF) using the data provided here. While you are given the data itself, you are expected to identify the tables, fields, and relationships that will house this data.   ✨ Copyright (c) mThree    
 
 <br>
 <br>
