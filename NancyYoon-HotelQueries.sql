@@ -10,8 +10,8 @@ FROM Guest
 WHERE Phone = '(917) 123-4567';
 
 /*
-Name			Address								Phone
-Nancy Yoon		2020 Broadway, New York, NY 10023	(917) 123-4567
+Name		Address					Phone
+Nancy Yoon	2020 Broadway, New York, NY 10023	(917) 123-4567
 */
 
 
