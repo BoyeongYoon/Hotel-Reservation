@@ -2,18 +2,16 @@
 
 <br>
 <br>
-<br>
 
 🔧 Requirement: The **MySQL** database server and client (eg.**MySQLWorkbench**)  
 
-<br>
 <br>
 
 Hotel Software Guild is a resort hotel on the West Arm of Lake Minnetonka. It is a relatively small hotel, with three floors of rooms. The top floor includes two large suites, and each of the other floors has eight standard-sized hotel rooms. The ground floor includes the customer service counter, a lounge area, a small exercise room, and a restaurant.
 
 The hotel staff currently uses Excel spreadsheets to keep track of the rooms, guests, and reservations, and they have hired you to convert the existing data into a more flexible relational database.
 
-You will build a database that satisfies at least second normal form (2NF) using the data provided here. While you are given the data itself, you are expected to identify the tables, fields, and relationships that will house this data.   ✨ Copyright (c) mThree    
+You will build a database that satisfies at least second normal form (2NF) using the data provided here. While you are given the data itself, you are expected to identify the tables, fields, and relationships that will house this data. © mThree  
 
 <br>
 <br>
@@ -29,7 +27,7 @@ You will build a database that satisfies at least second normal form (2NF) using
    - Returns a list of rooms, reservation ID, and per-room cost for each reservation. The results should include all rooms, whether or not there is a reservation associated with the room  
    - Returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023  
    - Returns a list of all guest names and the number of reservations per guest, sorted starting with the guest with the most reservations and then by the guest's last name  
-5. [Heap](#hotel-data) ✨ Copyright (c) mThree 
+5. [Heap](#hotel-data) © mThree 
    - [Room](#room)
    - [Guest](#guest)
    - [Reservation](#reservation)
