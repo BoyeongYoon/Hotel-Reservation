@@ -13,34 +13,10 @@
 
 <br>
 <br>
-<br>
 
-1. [Overview](#overview) ✨ Copyright (c) mThree
-2. [Entity Relationship Diagram (ERD)](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)  
-3. [Database](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
-4. [Data](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
-5. [Queries](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelQueries.sql)  
-   - Displays the name, address, and phone number of a guest based on their phone number.
-   - Returns a list of reservations that end in July 2023, including the name of the guest, the room number(s), and the reservation dates.  
-   - Returns a list of all reservations for rooms with a jacuzzi, displaying the guest's name, the room number, and the dates of the reservation.  
-   - Returns all the rooms reserved for a specific guest, including the guest's name, the room(s) reserved, the starting date of the reservation, and how many people were included in the reservation.  
-   - Returns a list of rooms, reservation ID, and per-room cost for each reservation. The results should include all rooms, whether or not there is a reservation associated with the room.  
-   - Returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023.  
-   - Returns a list of all guest names and the number of reservations per guest, sorted starting with the guest with the most reservations and then by the guest's last name.  
-6. [Heap](#hotel-data) ✨ Copyright (c) mThree 
-   - [Room](#room)
-   - [Guest](#guest)
-   - [Reservation](#reservation)
+## Overview 
+✨ Copyright (c) mThree  
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-   
-
-## Overview
 Hotel Software Guild is a resort hotel on the West Arm of Lake Minnetonka. It is a relatively small hotel, with three floors of rooms. The top floor includes two large suites, and each of the other floors has eight standard-sized hotel rooms. The ground floor includes the customer service counter, a lounge area, a small exercise room, and a restaurant.
 
 The hotel staff currently uses Excel spreadsheets to keep track of the rooms, guests, and reservations, and they have hired you to convert the existing data into a more flexible relational database.
@@ -49,7 +25,23 @@ You will build a database that satisfies at least second normal form (2NF) using
 
 <br>
 <br>
-<br>
+
+1. [Entity Relationship Diagram (ERD)](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelERD-Ver.4.jpg)  
+2. [Database](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelDB.sql)  
+3. [Data](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelData.sql)  
+4. [Queries](https://github.com/BoyeongYoon/Hotel-Reservation-Schema/blob/main/NancyYoon-HotelQueries.sql)  
+   - Displays the name, address, and phone number of a guest based on their phone number.
+   - Returns a list of reservations that end in July 2023, including the name of the guest, the room number(s), and the reservation dates.  
+   - Returns a list of all reservations for rooms with a jacuzzi, displaying the guest's name, the room number, and the dates of the reservation.  
+   - Returns all the rooms reserved for a specific guest, including the guest's name, the room(s) reserved, the starting date of the reservation, and how many people were included in the reservation.  
+   - Returns a list of rooms, reservation ID, and per-room cost for each reservation. The results should include all rooms, whether or not there is a reservation associated with the room.  
+   - Returns all the rooms accommodating at least three guests and that are reserved on any date in April 2023.  
+   - Returns a list of all guest names and the number of reservations per guest, sorted starting with the guest with the most reservations and then by the guest's last name.  
+5. [Heap](#hotel-data) ✨ Copyright (c) mThree 
+   - [Room](#room)
+   - [Guest](#guest)
+   - [Reservation](#reservation)
+   
 <br>
 <br>
 <br>
@@ -121,7 +113,6 @@ The following reservations appear in the current reservation system:
 
 ![Screen Shot 2022-05-12 at 12 42 49 PM](https://user-images.githubusercontent.com/30683150/168126252-9a864580-5e93-47db-a106-e5488f1812bb.png)  
 
-<br>
 <br>
 <br>
 
