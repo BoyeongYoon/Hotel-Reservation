@@ -86,6 +86,7 @@ The base prices for the rooms are the following:
 ### Room Data
 The room data is as follows:  
 
+_Sample_  
 ![Screen Shot 2022-05-12 at 12 41 35 PM](https://user-images.githubusercontent.com/30683150/168126424-0db420c5-b9f8-41a2-86ae-b809239fbb96.png)  
 
 <br>
@@ -95,6 +96,7 @@ The room data is as follows:
 ### Guest
 Guest information is collected only when a guest makes a reservation, so all guests have at least one reservation in the system. Guests who have made reservations include the following:  
 
+_Sample_  
 ![Screen Shot 2022-05-12 at 12 42 16 PM](https://user-images.githubusercontent.com/30683150/168126169-0f642ac5-42ca-4985-957c-cd13ec048723.png)  
 
 <br>
@@ -104,6 +106,7 @@ Guest information is collected only when a guest makes a reservation, so all gue
 ### Reservation
 The following reservations appear in the current reservation system:  
 
+_Sample_  
 ![Screen Shot 2022-05-12 at 12 42 49 PM](https://user-images.githubusercontent.com/30683150/168126252-9a864580-5e93-47db-a106-e5488f1812bb.png)  
 
 <br>
