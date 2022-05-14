@@ -4,6 +4,8 @@
 <br>
 <br>
 
+![logo-mysql-170x115](https://user-images.githubusercontent.com/30683150/168404078-534c2da8-8979-413b-bd38-f6dc91c90d42.png)  
+
 🔧 Requirement: The **MySQL** database server and client (eg.**MySQLWorkbench**)  
 
 <br>
